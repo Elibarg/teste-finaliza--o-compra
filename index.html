@@ -35,7 +35,6 @@
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
-        background-color: white;
     }
     .d3 
     {
@@ -45,7 +44,6 @@
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
-        background-color: white;   
         margin-bottom: 240px;
     }
     .inf /*aqui deve aparecer informações como input nome input endereço  input cep input Cidade input Bairro input Rua/Avenida input Número, input residencia (opcional) exemplo casa predio condomínio,input Telefone de Contato input Informações adicionais desse endereço(opcional)*/
@@ -56,7 +54,7 @@
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
-        background-color: rgba(0, 0, 0, 0.479);
+        background-color: #5c5b9ca1;
         color: white;
     }
     .pagamento /*aqui deve a parecer as formas de pagamento e o valor total*/
@@ -67,9 +65,21 @@
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
-        background-color: rgba(0, 0, 0, 0.479);
+        background-color: #5c5b9ca1;
         color: white;
     }
+    .pulha
+      {
+          width: 85px;
+          height: 45px;
+          background-color: yellow;
+          font-size: 16px;
+          cursor: url("cursor.png");
+          color: black;
+      }
+      .pulha:hover{
+          background-color: #ffd000;
+      }
 </style>
 <body>
     <div class="d1">
@@ -85,7 +95,7 @@
                 <input type="text" placeholder="Residência (opcional)">
                 <input type="text" placeholder="Telefone de Contato">
                 <input type="text" placeholder="Informações adicionais desse endereço (opcional)">
-                <button type="button">Continuar</button>
+                <button type="button" class="pulha">Continuar</button>
             </div>
         </div>
         <div class="d3">
